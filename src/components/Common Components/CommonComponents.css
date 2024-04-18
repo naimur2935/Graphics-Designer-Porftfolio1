@@ -1,0 +1,23 @@
+
+.service-list{
+    display: none;
+}
+
+.services:hover .service-list{
+    display: block;
+}
+
+.animated-text {
+    color: #00ff00; /* Initial color */
+    animation: colorChange 1s ease-in-out forwards;
+  }
+  
+  @keyframes colorChange {
+    from {
+      color: #00ff00; /* Initial color */
+    }
+    to {
+      color: #3759f0; /* Target color after animation */
+    }
+  }
+  
